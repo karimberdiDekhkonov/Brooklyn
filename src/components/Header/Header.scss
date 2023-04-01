@@ -1,0 +1,85 @@
+$hd-cl: #192e42;
+.header-container{
+    width: 100%;
+    height: 100px;
+    background-color: $hd-cl;
+    display: flex;
+    gap: 50px;
+    padding: 20px 50px;
+    position: sticky;
+    top: 0;
+    opacity: 97%;
+    z-index: 9999;
+
+    .logo{
+        width: 70px;
+        height: 70px;
+        margin-right: 80px;
+    }
+    .header-btn{
+        background-color: whitesmoke;
+        color: #192e42;
+        border-radius: 8px;
+        position: fixed;
+        right: 140px;
+        padding: 8px;
+    }
+    .header-link{
+        color: white;
+        margin-right: 10px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .sc-link{
+        margin-top: 8px;
+    }
+    .for-phone{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header-container{
+        .header-btn{
+            display: none;
+        }
+        .bar{
+            width: 100%;
+            background-color: #192e42;
+        }
+
+        .header-link{
+            background-color: #192e42;
+            color: white;
+            padding: 20px;
+            border: none;
+        }
+        .for-phone{
+            display: block;
+            background-color: #192e42;
+            color: white;
+            padding: 20px;
+            border: none;
+        }
+
+        .menu-bar {
+            color: #192e42;
+            background-color: wheat;
+
+        }
+    }
+}
+
+//HOWER
+.header-btn:hover{
+    border-radius: 12px;
+    font-size: large;
+    right: 130px;
+    background-color: orange;
+    color: white;
+}
+
+.header-link:hover{
+    color: blue;
+    font-size: medium;
+}
