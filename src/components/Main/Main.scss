@@ -156,25 +156,28 @@
                     font-weight: 400;
                     letter-spacing: 2px;
                     word-spacing: 2px;
+                    margin-bottom: 4px;
                 }
                 .sec{
                     font-size: x-large;
                     letter-spacing: 1px;
                 }
                 .over{
+                    margin-top: 4px;
                     font-size: xx-large;
                     letter-spacing: 1px;
                     font-weight: 500;
                 }
             }
             .res-img{
-                width: 50%;
+                width: 46%;
                 height: 100%;
 
                 img{
                     width: auto;
                     height: 60vh;
                     object-fit: fill;
+                    border-radius: 12px;
                 }
             }
         }

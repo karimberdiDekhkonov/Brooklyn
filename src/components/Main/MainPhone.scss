@@ -148,34 +148,37 @@
                 padding: 20px;
                 display: flex;
                 flex-direction: column;
-                gap: 4px;
+                gap: 3px;
 
                 .fullname{
-                    font-size: x-large;
+                    font-size: large;
                     font-weight: 400;
                     letter-spacing: 2px;
                     word-spacing: 0px;
+                    margin-bottom: 2px;
                 }
                 .sec{
-                    font-size: smaller;
+                    font-size: small;
                     letter-spacing: 1px;
                 }
                 .over{
                     font-size: large;
                     letter-spacing: 1px;
                     font-weight: 500;
+                    margin-top: 2px;
                 }
             }
             .res-img{
-                width: 50%;
+                width: 40%;
                 height: 100%;
                 margin-top: 20px;
                 margin-right: 20px;
 
                 img{
                     width: auto;
-                    height: 200px;
+                    height: 180px;
                     object-fit: fill;
+                    border-radius: 8px;
                 }
             }
         }
@@ -187,6 +190,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 80px;
+        margin-bottom: -120px;
     
         .contact-text{
             font-size: xx-large;
@@ -203,21 +207,24 @@
         height: 460px;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        font-size: x-large;
     
         .sec-four-box{
             margin: 20px;
-            width: 140px;
-            height: 140px;
-            line-height: 140px;
-            font-size: xx-large;
+            width: 120px;
+            height: 120px;
+            line-height: 120px;
+            font-size: medium;
             letter-spacing: 2px;
             display: flex;
             flex-direction: column;
             gap: 0;
         }
+
+        .sec-four-box > *{
+            font-size: x-large;
+        }
     
     }
-
-    
     
 }
